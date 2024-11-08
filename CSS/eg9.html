@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS3</title>
+    <style>
+        form{
+            margin-left: 120px;
+        }
+        input:focus{
+            background-color: aqua;
+            color: black;
+        }
+        input[type='checkbox']:checked{
+            box-shadow: 0 0 8px 5px yellow;
+        }
+        input:required{
+            border: 2px solid darkblue;
+           
+          
+        }
+        input:invalid{
+            box-shadow: 0 0  5px 2px red;
+        }
+    </style>
+  </head>
+  <body>
+    <form action="">
+    <label for="">Username</label><br>
+    <input type="text"/><br>
+    <label for="">Password</label><br>
+    <input type="text/number/@" required/><br>
+    <label for="">Email</label><br>
+    <input type="text/@" required/> <br>
+    <label for="">Hobbies:</label>
+    <label for="">cricket</label>
+    <input type="checkbox">
+    <label for="">Football</label>
+    <input type="checkbox">
+    <label for="">Hockey</label>
+    <input type="checkbox"><br>
+    <label for="">Number:</label><br>
+    <input type="numbers"><br>
+    <input type="submit" name="" id="">
+</form>
+  </body>
+</html>
